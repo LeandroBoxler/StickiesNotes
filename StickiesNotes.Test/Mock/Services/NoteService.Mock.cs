@@ -2,6 +2,8 @@ using StickiesNotes.Domain.Entities;
 using StickiesNotes.Domain.Services;
 using StickiesNotes.Domain.Types;
 
+namespace StickiesNotes.Tests.Mocks;
+
 public class NoteServiceMock : NoteService
 {
     public Note[] notes;

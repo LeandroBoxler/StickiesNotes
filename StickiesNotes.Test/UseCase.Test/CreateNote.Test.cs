@@ -2,6 +2,7 @@ using StickiesNotes.Domain.Entities;
 using StickiesNotes.Domain.Services;
 using StickiesNotes.Domain.Types;
 using StickiesNotes.Domain.UseCases;
+using StickiesNotes.Tests.Mocks;
 namespace StickiesNotes.Tests;
 
 public class CreateNoteTest
@@ -24,5 +25,4 @@ public class CreateNoteTest
 
         Assert.True(dbResult.IsSuccess);
     }
-
 }
