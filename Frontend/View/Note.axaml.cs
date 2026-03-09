@@ -21,6 +21,7 @@ public partial class Note : Window
 
         Opened += (_, _) => ApplyWindowStyles();
 
+
     }
     private void ApplyWindowStyles()
     {
